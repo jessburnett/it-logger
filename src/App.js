@@ -12,7 +12,9 @@ const App = () => {
   return (
     <Fragment>
       <SearchBar/>
-      <Logs/>
+      <div className="container">
+        <Logs/>
+      </div>
     </Fragment>
   );
 }
