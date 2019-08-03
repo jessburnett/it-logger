@@ -1,6 +1,11 @@
 {
   "name": "it-logger",
   "version": "0.1.0",
+  "author": "Jessica Burnett",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jessburnett/it-logger.git"
+  },
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
@@ -27,5 +32,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "json-server": "^0.15.0"
   }
 }
