@@ -19,6 +19,9 @@ const LogItem = ({ log }) => {
           <span className="black-text">{log.tech}</span> on {' '}
           <Moment format='MMMM Do YYY, h:mm:ss a'>{log.date}</Moment>
         </span>
+        <a href="#!" className="secondary-content">
+          <i className="material-icons">delete</i>
+        </a>
       </div>
     </li>
   )
